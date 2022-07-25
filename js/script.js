@@ -67,7 +67,7 @@ document.addEventListener("click", (e) =>{
     if(e.target.classList.contains("view-project-btn")){
        togglePortfolioPopup();
        document.querySelector(".portfolio-popup").scrollTo(0,0);
-       portfolioItemsDetails(e.target.parentElement);
+        portfolioItemsDetails(e.target.parentElement);
 
     }
 })
